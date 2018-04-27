@@ -13,7 +13,7 @@
 # 'I LOVE YOU TOO PUMPKIN!'
 hello = "I love you grandma!"
 def speak_to_grandma(hello)
-  if hello == "I LOVE YOU GRANDMA!"
+  if hello.eql? "I LOVE YOU GRANDMA!"
     puts "I LOVE YOU TOO PUMPKIN!"
   elsif hello == hello.downcase
     puts "HUH?! SPEAK UP, SONNY!"
