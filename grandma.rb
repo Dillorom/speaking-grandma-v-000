@@ -15,8 +15,8 @@ hello = "I love you grandma!"
 def speak_to_grandma(hello)
   if hello == "I LOVE YOU GRANDMA!"
     "I LOVE YOU TOO PUMPKIN!"
-  elsif hello == hello.downcase
-    puts "HUH?! SPEAK UP, SONNY!"
+  elsif hello != hello.uppercase
+    "HUH?! SPEAK UP, SONNY!"
   else 
     puts "NO, NOT SINCE 1938!"
   end
