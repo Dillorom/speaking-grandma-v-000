@@ -17,7 +17,7 @@ def speak_to_grandma(hello)
     "I LOVE YOU TOO PUMPKIN!"
   elsif hello != hello.upcase
     "HUH?! SPEAK UP, SONNY!"
-  else 
+  else hello
     puts "NO, NOT SINCE 1938!"
   end
 end
